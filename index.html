@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <h1 class="employee">Employee Registration Form</h1>
+        <br><br>
+        <div class="mainBody">
+        <form>
+         <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="Firstname" class="blanks">
+        <br><br>
+        <label for="mname">Middle Name:</label>
+        <input type="text" name="mname" id="mname" placeholder="Middlename" class="blanks">
+        <br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" placeholder="Lastname" class="blanks">
+        <br><br>
+        <label for="dprtmnt">Department:</label>
+        <select name="dprtmnt" id="dprtmnt" class="blanks">
+        <option>Department</option>
+        <option>IT Head</option>
+        <option>Marketing</option>
+        <option>HR</option>
+        <option>Web Development</option>
+        </select>
+
+        <br><br>
+
+        <label>Gender:</label>
+        <br>
+        <input type="radio" name="gnder" id="mgndr">
+        <label for="mgndr">Male</label>
+        <br>
+        <input type="radio" name="gnder" id="fgndr">
+        <label for="fgndr">Female</label>
+        <br>
+        <input type="radio" name="gnder" id="ogndr">
+        <label for="ogndr">Others</label>
+        <br><br>
+
+        <label for="phnumber">Phone:</label>
+        <input type="text" name="countrycode" id="ccode" value="+91" size="1" class="blanks">
+        <input type="tel" name="phnumbr" id="phnumber" placeholder="1234-567890" class="blanks">
+        <br><br>
+
+        <label for="txtarea">Current Address:</label> 
+        <textarea name="txtarea" id="txtarea" cols="20" placeholder="Write your current address" class="blanks"></textarea>
+        <br><br>
+        <label for="resume">Drop your Resume:</label>
+        <input type="file" name="resume" id="resume" accept="image/jpeg, image/png" class="blanks">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email" class="blanks">
+        <br><br>
+        <label for="paswrd">Password</label>
+        <input type="password" name="paswrd" id="paswrd" placeholder="Enter Password" minlength="8" required class="blanks">
+        <br><br>
+        <label for="rpswrd">Re-type Password</label>
+        <input type="password" name="rpswrd" id="rpswrd" placeholder="Retype Password" class="blanks">
+        <br><br>
+        <input type="submit"  class="register">
+    </form>
+</div>
+</body>
+</html>
